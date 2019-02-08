@@ -1,0 +1,12 @@
+dist/
+build/
+*.pyc
+*.yml
+*.json
+.vscode
+.idea
+old/
+*.egg-info
+*.lock
+config.json
+config.yml
