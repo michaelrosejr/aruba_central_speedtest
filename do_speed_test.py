@@ -2,6 +2,7 @@
 import requests
 import json
 import json
+# install pyyaml
 import yaml
 import logging
 import time
@@ -10,7 +11,7 @@ import sys
 
 from central import auth
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # serial = "CM0300585"
